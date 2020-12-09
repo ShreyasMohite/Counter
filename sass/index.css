@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: rgba(125, 180, 218, 0.541);
+}
+
+.mainsection {
+  width: 20rem;
+  height: 26rem;
+  background-color: transparent;
+  border: 3px solid #8a5f5f 173, 120, 120;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 7px 40px black;
+          box-shadow: 0px 7px 40px black;
+}
+
+.mainsection .subsection {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.mainsection .subsection h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: #44423f;
+}
+
+.mainsection .subsection p {
+  text-align: center;
+  font-size: 8rem;
+  color: #3b3b3a;
+}
+
+.mainsection .subsection button {
+  padding: 1rem;
+  margin: 1rem 0rem;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: slategrey;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: relative;
+  left: 0.6rem;
+}
+
+.mainsection .subsection button:hover {
+  background-color: springgreen;
+}
+/*# sourceMappingURL=index.css.map */
